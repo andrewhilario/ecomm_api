@@ -68,7 +68,7 @@ mongoose.connection.on('disconnected', () => {
 connectDB();
 
 app.get('/', (req, res) => {
-  res.send('Hello World');
+  res.send('Hello Welcome to Ecommerce API');
 });
 
 app.listen(4000, () => {
